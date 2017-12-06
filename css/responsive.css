@@ -1,0 +1,98 @@
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .promotion .woman , .promotion .big , .promotion .img{
+    width: 300px;
+    height: 300px
+  }
+  .promotion .woman {
+    padding: 40px 30px
+  }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .navbar-expand-lg .navbar-nav .nav-link{
+  margin: 0 10px;
+  font-size: 15px;
+  }
+  .policy h4{
+    font-size: 15px;
+
+  }
+  .policy h4 i{
+    margin-right: 7px
+  }
+  @media (min-width: 768px) and (max-width: 992px) {
+    .nav-store-hide-xs{
+      display: block;
+    }
+    .navbar-brand {
+      display: none;
+    }
+    .nav-store{
+      display: none
+    }
+    }
+  /*.promotion .woman , .promotion .big , .promotion .img{
+    width: 300px;
+    height: 300px
+  }*/
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.nav-store-hide-xs{
+  display: block;
+}
+
+.navbar-brand {
+  display: none;
+}
+.nav-store{
+  display: none
+}
+.headerTop .login-reg a{
+  font-size: 15px
+}
+.headerTop .login-reg span{
+  margin: 0 5px
+}
+.promotion .woman , .promotion .big , .promotion .img{
+  width: 300px;
+  height: 300px
+}
+.policy h4{
+  font-size: 14px;
+
+}
+.policy h4 i{
+  margin-right: 10px
+}
+.checkout-title  h4{
+font-size: 14px;
+}
+.checkout-title  .number{
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px
+}
+}
+/* Portrait phones and smaller */
+@media (max-width: 576px) {
+  .checkout-title h4 {
+      font-size: 17px;
+      text-align: center ;
+    }
+    .checkout-title .number {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+  }
+}
